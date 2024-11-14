@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D6E59CED2CE67955009F2B5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6E59CD42CE67953009F2B5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6E59CDB2CE67953009F2B5C;
+			remoteInfo = CompTIAFlashcards;
+		};
+		D6E59CF72CE67955009F2B5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6E59CD42CE67953009F2B5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6E59CDB2CE67953009F2B5C;
+			remoteInfo = CompTIAFlashcards;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6E59CDC2CE67953009F2B5C /* CompTIAFlashcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompTIAFlashcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E59CEC2CE67955009F2B5C /* CompTIAFlashcardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompTIAFlashcardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E59CF62CE67955009F2B5C /* CompTIAFlashcardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompTIAFlashcardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D6E59CDE2CE67953009F2B5C /* CompTIAFlashcards */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CompTIAFlashcards;
+			sourceTree = "<group>";
+		};
+		D6E59CEF2CE67955009F2B5C /* CompTIAFlashcardsTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CompTIAFlashcardsTests;
+			sourceTree = "<group>";
+		};
+		D6E59CF92CE67955009F2B5C /* CompTIAFlashcardsUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CompTIAFlashcardsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6E59CD92CE67953009F2B5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E59CE92CE67955009F2B5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E59CF32CE67955009F2B5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6E59CD32CE67953009F2B5C = {
+			isa = PBXGroup;
+			children = (
+				D6E59CDE2CE67953009F2B5C /* CompTIAFlashcards */,
+				D6E59CEF2CE67955009F2B5C /* CompTIAFlashcardsTests */,
+				D6E59CF92CE67955009F2B5C /* CompTIAFlashcardsUITests */,
+				D6E59CDD2CE67953009F2B5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6E59CDD2CE67953009F2B5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6E59CDC2CE67953009F2B5C /* CompTIAFlashcards.app */,
+				D6E59CEC2CE67955009F2B5C /* CompTIAFlashcardsTests.xctest */,
+				D6E59CF62CE67955009F2B5C /* CompTIAFlashcardsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6E59CDB2CE67953009F2B5C /* CompTIAFlashcards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6E59D002CE67955009F2B5C /* Build configuration list for PBXNativeTarget "CompTIAFlashcards" */;
+			buildPhases = (
+				D6E59CD82CE67953009F2B5C /* Sources */,
+				D6E59CD92CE67953009F2B5C /* Frameworks */,
+				D6E59CDA2CE67953009F2B5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D6E59CDE2CE67953009F2B5C /* CompTIAFlashcards */,
+			);
+			name = CompTIAFlashcards;
+			packageProductDependencies = (
+			);
+			productName = CompTIAFlashcards;
+			productReference = D6E59CDC2CE67953009F2B5C /* CompTIAFlashcards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6E59CEB2CE67955009F2B5C /* CompTIAFlashcardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6E59D032CE67955009F2B5C /* Build configuration list for PBXNativeTarget "CompTIAFlashcardsTests" */;
+			buildPhases = (
+				D6E59CE82CE67955009F2B5C /* Sources */,
+				D6E59CE92CE67955009F2B5C /* Frameworks */,
+				D6E59CEA2CE67955009F2B5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6E59CEE2CE67955009F2B5C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D6E59CEF2CE67955009F2B5C /* CompTIAFlashcardsTests */,
+			);
+			name = CompTIAFlashcardsTests;
+			packageProductDependencies = (
+			);
+			productName = CompTIAFlashcardsTests;
+			productReference = D6E59CEC2CE67955009F2B5C /* CompTIAFlashcardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6E59CF52CE67955009F2B5C /* CompTIAFlashcardsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6E59D062CE67955009F2B5C /* Build configuration list for PBXNativeTarget "CompTIAFlashcardsUITests" */;
+			buildPhases = (
+				D6E59CF22CE67955009F2B5C /* Sources */,
+				D6E59CF32CE67955009F2B5C /* Frameworks */,
+				D6E59CF42CE67955009F2B5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6E59CF82CE67955009F2B5C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D6E59CF92CE67955009F2B5C /* CompTIAFlashcardsUITests */,
+			);
+			name = CompTIAFlashcardsUITests;
+			packageProductDependencies = (
+			);
+			productName = CompTIAFlashcardsUITests;
+			productReference = D6E59CF62CE67955009F2B5C /* CompTIAFlashcardsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6E59CD42CE67953009F2B5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					D6E59CDB2CE67953009F2B5C = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					D6E59CEB2CE67955009F2B5C = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = D6E59CDB2CE67953009F2B5C;
+					};
+					D6E59CF52CE67955009F2B5C = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = D6E59CDB2CE67953009F2B5C;
+					};
+				};
+			};
+			buildConfigurationList = D6E59CD72CE67953009F2B5C /* Build configuration list for PBXProject "CompTIAFlashcards" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6E59CD32CE67953009F2B5C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D6E59CDD2CE67953009F2B5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6E59CDB2CE67953009F2B5C /* CompTIAFlashcards */,
+				D6E59CEB2CE67955009F2B5C /* CompTIAFlashcardsTests */,
+				D6E59CF52CE67955009F2B5C /* CompTIAFlashcardsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6E59CDA2CE67953009F2B5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E59CEA2CE67955009F2B5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E59CF42CE67955009F2B5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6E59CD82CE67953009F2B5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E59CE82CE67955009F2B5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E59CF22CE67955009F2B5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6E59CEE2CE67955009F2B5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6E59CDB2CE67953009F2B5C /* CompTIAFlashcards */;
+			targetProxy = D6E59CED2CE67955009F2B5C /* PBXContainerItemProxy */;
+		};
+		D6E59CF82CE67955009F2B5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6E59CDB2CE67953009F2B5C /* CompTIAFlashcards */;
+			targetProxy = D6E59CF72CE67955009F2B5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D6E59CFE2CE67955009F2B5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6E59CFF2CE67955009F2B5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6E59D012CE67955009F2B5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CompTIAFlashcards/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.CompTIAFlashcards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6E59D022CE67955009F2B5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CompTIAFlashcards/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.CompTIAFlashcards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6E59D042CE67955009F2B5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.CompTIAFlashcardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CompTIAFlashcards.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CompTIAFlashcards";
+			};
+			name = Debug;
+		};
+		D6E59D052CE67955009F2B5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.CompTIAFlashcardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CompTIAFlashcards.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CompTIAFlashcards";
+			};
+			name = Release;
+		};
+		D6E59D072CE67955009F2B5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.CompTIAFlashcardsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CompTIAFlashcards;
+			};
+			name = Debug;
+		};
+		D6E59D082CE67955009F2B5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.CompTIAFlashcardsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CompTIAFlashcards;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6E59CD72CE67953009F2B5C /* Build configuration list for PBXProject "CompTIAFlashcards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E59CFE2CE67955009F2B5C /* Debug */,
+				D6E59CFF2CE67955009F2B5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6E59D002CE67955009F2B5C /* Build configuration list for PBXNativeTarget "CompTIAFlashcards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E59D012CE67955009F2B5C /* Debug */,
+				D6E59D022CE67955009F2B5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6E59D032CE67955009F2B5C /* Build configuration list for PBXNativeTarget "CompTIAFlashcardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E59D042CE67955009F2B5C /* Debug */,
+				D6E59D052CE67955009F2B5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6E59D062CE67955009F2B5C /* Build configuration list for PBXNativeTarget "CompTIAFlashcardsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E59D072CE67955009F2B5C /* Debug */,
+				D6E59D082CE67955009F2B5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6E59CD42CE67953009F2B5C /* Project object */;
+}
