@@ -1,0 +1,283 @@
+[
+  {
+    "id": "1",
+    "question": "What type of RAM is commonly used in laptops?",
+    "answer": "SO-DIMM",
+    "category": "Hardware",
+    "isKnown": false
+  },
+  {
+    "id": "2",
+    "question": "What is the difference between HDD and SSD in laptops?",
+    "answer": "HDDs offer more storage but have moving parts; SSDs are faster, have no moving parts, consume less power, and are more durable.",
+    "category": "Storage Devices",
+    "isKnown": false
+  },
+  {
+    "id": "3",
+    "question": "What is a Wireless NIC used for in mobile devices?",
+    "answer": "It provides wireless network connectivity, such as Wi-Fi, Bluetooth, and cellular connections.",
+    "category": "Networking",
+    "isKnown": false
+  },
+  {
+    "id": "4",
+    "question": "What does NFC stand for and where is it commonly used?",
+    "answer": "Near Field Communication; used for mobile payments and authentication.",
+    "category": "Security",
+    "isKnown": false
+  },
+  {
+    "id": "5",
+    "question": "Compare LCD and OLED display types.",
+    "answer": "LCD uses backlight and performs well in bright conditions; OLED generates light from each pixel, has better contrast, thinner profile, and is prone to burn-in.",
+    "category": "Display Technologies",
+    "isKnown": false
+  },
+  {
+    "id": "6",
+    "question": "What are the characteristics of TN, VA, and IPS panels?",
+    "answer": "TN: Fast response, not good at angles; VA: Balanced, good for varying light; IPS: Good at angles, ideal for content creators.",
+    "category": "Display Technologies",
+    "isKnown": false
+  },
+  {
+    "id": "7",
+    "question": "What is the function of a port replicator?",
+    "answer": "It plugs into a laptop or mobile device to provide additional ports/peripherals without adding new features.",
+    "category": "Hardware Accessories",
+    "isKnown": false
+  },
+  {
+    "id": "8",
+    "question": "What advantages does a docking station offer over a port replicator?",
+    "answer": "It provides additional ports and features like enhanced video and audio capabilities and includes its own power supply.",
+    "category": "Hardware Accessories",
+    "isKnown": false
+  },
+  {
+    "id": "9",
+    "question": "What is the difference between GSM and CDMA cellular networks?",
+    "answer": "GSM uses SIM cards for user identity and is flexible; CDMA is known for robust stability and vast coverage but less flexible when switching devices.",
+    "category": "Networking",
+    "isKnown": false
+  },
+  {
+    "id": "10",
+    "question": "What is PRL and why is it important?",
+    "answer": "Preferred Roaming List; it helps devices determine which network to connect to, avoiding roaming by containing frequency bands and service provider IDs.",
+    "category": "Networking",
+    "isKnown": false
+  },
+  {
+    "id": "11",
+    "question": "What is MDM and what does it do?",
+    "answer": "Mobile Device Management; it controls, secures, and enforces policies on mobile devices.",
+    "category": "Security",
+    "isKnown": false
+  },
+  {
+    "id": "12",
+    "question": "What is the purpose of MAM?",
+    "answer": "Mobile Application Management; it controls and secures access to corporate applications and data, allowing wiping company data from individual apps.",
+    "category": "Security",
+    "isKnown": false
+  },
+  {
+    "id": "13",
+    "question": "What are the differences between TCP and UDP protocols?",
+    "answer": "TCP is connection-oriented with error checking; UDP is faster, connectionless, and doesn't guarantee delivery.",
+    "category": "Networking Protocols",
+    "isKnown": false
+  },
+  {
+    "id": "14",
+    "question": "Which protocol and port number does SSH use?",
+    "answer": "SSH uses TCP port 22.",
+    "category": "Networking Ports",
+    "isKnown": false
+  },
+  {
+    "id": "15",
+    "question": "What is the purpose of DHCP in a network?",
+    "answer": "Dynamic Host Configuration Protocol automates the configuration of devices on IP networks, assigning IP addresses and other network settings.",
+    "category": "Networking Protocols",
+    "isKnown": false
+  },
+  {
+    "id": "16",
+    "question": "Explain the DORA process in DHCP.",
+    "answer": "Discover, Offer, Request, Acknowledge; the sequence of steps for DHCP IP address allocation.",
+    "category": "Networking Protocols",
+    "isKnown": false
+  },
+  {
+    "id": "17",
+    "question": "What is APIPA and when is it used?",
+    "answer": "Automatic Private IP Addressing; used when a device can't reach a DHCP server, assigning itself an IP in the 169.254.x.x range.",
+    "category": "Networking",
+    "isKnown": false
+  },
+  {
+    "id": "18",
+    "question": "What is the difference between a hub and a switch?",
+    "answer": "A hub broadcasts data to all devices; a switch sends data only to the destination device.",
+    "category": "Networking Hardware",
+    "isKnown": false
+  },
+  {
+    "id": "19",
+    "question": "What is PoE and what devices commonly use it?",
+    "answer": "Power over Ethernet allows network cables to transmit data and power; used by IP phones, wireless access points, and IP cameras.",
+    "category": "Networking Hardware",
+    "isKnown": false
+  },
+  {
+    "id": "20",
+    "question": "What is the difference between single-mode and multi-mode fiber optic cables?",
+    "answer": "Single-mode fiber is used for long distances with a single light path; multi-mode fiber is used for shorter distances with multiple light paths.",
+    "category": "Networking Cables",
+    "isKnown": false
+  },
+  {
+    "id": "21",
+    "question": "What does the term 'plenum-rated' mean in cabling?",
+    "answer": "Cables that are rated for fire resistance and produce less smoke, suitable for use in plenum spaces like HVAC ducts.",
+    "category": "Networking Cables",
+    "isKnown": false
+  },
+  {
+    "id": "22",
+    "question": "What is the purpose of a loopback plug?",
+    "answer": "To test network ports and the functionality of a NIC by sending signals back to itself.",
+    "category": "Networking Tools",
+    "isKnown": false
+  },
+  {
+    "id": "23",
+    "question": "Explain the function of a VLAN.",
+    "answer": "A Virtual Local Area Network segments a physical network into multiple logical networks for security and efficiency.",
+    "category": "Networking",
+    "isKnown": false
+  },
+  {
+    "id": "24",
+    "question": "What is the main advantage of using UEFI over BIOS?",
+    "answer": "UEFI has a modern interface with GUI support, secure boot features, and can handle larger boot drives.",
+    "category": "Hardware",
+    "isKnown": false
+  },
+  {
+    "id": "25",
+    "question": "What is a TPM and what is its primary function?",
+    "answer": "Trusted Platform Module; it provides hardware-based security functions, storing cryptographic keys, passwords, and certificates.",
+    "category": "Security",
+    "isKnown": false
+  },
+  {
+    "id": "26",
+    "question": "What does RAID stand for and what is its purpose?",
+    "answer": "Redundant Array of Independent Disks; it combines multiple hard drives for data redundancy and performance improvement.",
+    "category": "Storage Technologies",
+    "isKnown": false
+  },
+  {
+    "id": "27",
+    "question": "Describe the main characteristic of RAID 0.",
+    "answer": "Data is striped across disks without redundancy; improves performance but offers no fault tolerance.",
+    "category": "Storage Technologies",
+    "isKnown": false
+  },
+  {
+    "id": "28",
+    "question": "What is the function of ECC RAM?",
+    "answer": "Error-Correcting Code RAM can detect and correct data corruption on the fly, important for critical systems.",
+    "category": "Memory",
+    "isKnown": false
+  },
+  {
+    "id": "29",
+    "question": "What are the common types of RAM used in modern computers?",
+    "answer": "DDR3, DDR4, and DDR5 for desktops; SO-DIMM for laptops.",
+    "category": "Memory",
+    "isKnown": false
+  },
+  {
+    "id": "30",
+    "question": "What is the difference between a Type 1 and Type 2 hypervisor?",
+    "answer": "Type 1 runs directly on hardware (bare metal); Type 2 runs on top of a host operating system.",
+    "category": "Virtualization",
+    "isKnown": false
+  },
+  {
+    "id": "31",
+    "question": "What is cloud computing's 'rapid elasticity' characteristic?",
+    "answer": "The ability to quickly scale resources up or down in response to demand.",
+    "category": "Cloud Computing",
+    "isKnown": false
+  },
+  {
+    "id": "32",
+    "question": "What is the main purpose of a UPS?",
+    "answer": "Uninterruptible Power Supply; provides immediate backup power to devices during a power outage.",
+    "category": "Hardware",
+    "isKnown": false
+  },
+  {
+    "id": "33",
+    "question": "What does BIOS stand for and what is its role?",
+    "answer": "Basic Input/Output System; it initializes hardware during the boot-up process.",
+    "category": "Hardware",
+    "isKnown": false
+  },
+  {
+    "id": "34",
+    "question": "Name three cloud service models.",
+    "answer": "Infrastructure as a Service (IaaS), Platform as a Service (PaaS), Software as a Service (SaaS).",
+    "category": "Cloud Computing",
+    "isKnown": false
+  },
+  {
+    "id": "35",
+    "question": "What is DHCP reservation?",
+    "answer": "A feature that reserves a specific IP address for a particular device based on its MAC address.",
+    "category": "Networking",
+    "isKnown": false
+  },
+  {
+    "id": "36",
+    "question": "What are the key steps in the troubleshooting methodology?",
+    "answer": "1. Identify the problem, 2. Establish a theory of probable cause, 3. Test the theory, 4. Establish a plan, 5. Verify functionality, 6. Document findings.",
+    "category": "Troubleshooting",
+    "isKnown": false
+  },
+  {
+    "id": "37",
+    "question": "What is EMI and how can it affect networks?",
+    "answer": "Electromagnetic Interference; it can disrupt or degrade signal quality in network cables.",
+    "category": "Networking",
+    "isKnown": false
+  },
+  {
+    "id": "38",
+    "question": "What is a 'pinwheel' in macOS?",
+    "answer": "It's a proprietary crash screen indicating that an application or the system has become unresponsive.",
+    "category": "Operating Systems",
+    "isKnown": false
+  },
+  {
+    "id": "39",
+    "question": "What does the 'SMART' technology in hard drives stand for?",
+    "answer": "Self-Monitoring, Analysis, and Reporting Technology; it predicts drive failures.",
+    "category": "Storage Technologies",
+    "isKnown": false
+  },
+  {
+    "id": "40",
+    "question": "What is the function of a firewall's ACL?",
+    "answer": "Access Control List; it allows or denies traffic based on predetermined security rules.",
+    "category": "Security",
+    "isKnown": false
+  }
+]
+

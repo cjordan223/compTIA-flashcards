@@ -5,13 +5,12 @@
 //  Created by connerjordan on 11/14/24.
 //
 
-import Foundation
-
 struct Flashcard: Identifiable, Codable {
-    let id: UUID
+    let id: String  // Changed from UUID to String
     var question: String
     var answer: String
     var category: String
     var isKnown: Bool
 }
+
 

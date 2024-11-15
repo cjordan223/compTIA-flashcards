@@ -18,7 +18,7 @@ struct AddFlashcardView: View {
             .navigationBarTitle("Add Flashcard", displayMode: .inline)
             .navigationBarItems(trailing: Button("Save") {
                 let newFlashcard = Flashcard(
-                    id: UUID(),
+                    id: UUID().uuidString,  // Convert UUID to String
                     question: question,
                     answer: answer,
                     category: category,
