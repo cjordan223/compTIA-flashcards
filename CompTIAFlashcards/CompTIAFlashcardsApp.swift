@@ -11,7 +11,8 @@ import SwiftUI
 struct CompTIAFlashcardsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FlashcardListView()
         }
     }
 }
+
