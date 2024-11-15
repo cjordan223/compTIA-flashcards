@@ -17,6 +17,7 @@ struct StudyView: View {
                 VStack(spacing: 16) {
                     FlashcardView(
                         flashcards: flashcards,
+                        initialIndex: currentIndex, // Pass the current index as the initialIndex
                         onStatusChange: { index, isKnown in
                             updateFlashcardStatus(for: index, isKnown: isKnown)
                         }

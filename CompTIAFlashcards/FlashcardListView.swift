@@ -52,22 +52,23 @@ struct FlashcardListView: View {
                 }
 
                 // Flashcard List
-                List(filteredFlashcards) { flashcard in
+                List(filteredFlashcards.indices, id: \.self) { index in
                     NavigationLink(
                         destination: FlashcardView(
                             flashcards: filteredFlashcards,
-                            onStatusChange: { index, isKnown in
-                                updateFlashcardStatus(for: filteredFlashcards[index].id, isKnown: isKnown)
+                            initialIndex: index, // Pass the index of the selected flashcard
+                            onStatusChange: { flashcardIndex, isKnown in
+                                updateFlashcardStatus(for: filteredFlashcards[flashcardIndex].id, isKnown: isKnown)
                             }
                         )
                     ) {
                         HStack {
                             VStack(alignment: .leading) {
-                                Text(flashcard.question).font(.headline)
-                                Text(flashcard.category).font(.subheadline).foregroundColor(.gray)
+                                Text(filteredFlashcards[index].question).font(.headline)
+                                Text(filteredFlashcards[index].category).font(.subheadline).foregroundColor(.gray)
                             }
                             Spacer()
-                            if flashcard.isKnown {
+                            if filteredFlashcards[index].isKnown {
                                 Image(systemName: "checkmark.circle.fill").foregroundColor(.green)
                             } else {
                                 Image(systemName: "exclamationmark.circle.fill").foregroundColor(.red)
@@ -104,29 +105,20 @@ struct FlashcardListView: View {
     }
 
     private func loadFlashcards() {
-        let fileManager = FileManager.default
-        let documentsURL = fileManager.urls(for: .documentDirectory, in: .userDomainMask).first!
-        let fileURL = documentsURL.appendingPathComponent("flashcards.json")
-
-        print("JSON file path: \(fileURL)") // Debug log
-
-        if let data = try? Data(contentsOf: fileURL) {
-            let decoder = JSONDecoder()
+        if let bundleURL = Bundle.main.url(forResource: "flashcards", withExtension: "json") {
             do {
-                let rawData = try JSONSerialization.jsonObject(with: data, options: []) as? [[String: Any]]
-                print("Total raw entries: \(rawData?.count ?? 0)") // Log total entries in the JSON
-
+                let data = try Data(contentsOf: bundleURL)
+                let decoder = JSONDecoder()
                 flashcards = try decoder.decode([Flashcard].self, from: data)
-                print("Successfully loaded \(flashcards.count) flashcards")
+                print("Loaded \(flashcards.count) flashcards from bundle")
             } catch {
                 print("Error decoding JSON: \(error)")
             }
         } else {
-            print("JSON file not found or empty")
+            print("flashcards.json not found in bundle")
         }
+        updateProgress()
     }
-
-
 
     private func saveFlashcards() {
         let encoder = JSONEncoder()

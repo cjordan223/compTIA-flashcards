@@ -2,10 +2,17 @@ import SwiftUI
 
 struct FlashcardView: View {
     @State private var isFlipped = false
-    @State private var currentIndex = 0 // Track the current flashcard index
+    @State private var currentIndex: Int // Track the current flashcard index
 
     var flashcards: [Flashcard]
     var onStatusChange: (Int, Bool) -> Void // Pass index to allow updating
+
+    // Initializer to set the starting index
+    init(flashcards: [Flashcard], initialIndex: Int, onStatusChange: @escaping (Int, Bool) -> Void) {
+        self.flashcards = flashcards
+        self.onStatusChange = onStatusChange
+        self._currentIndex = State(initialValue: initialIndex) // Set initial index
+    }
 
     var body: some View {
         VStack(spacing: 16) {
@@ -95,22 +102,23 @@ struct FlashcardView: View {
             isFlipped = false // Reset flip state for previous card
         }
     }
-}
+    
+    // Add this at the bottom of FlashcardView.swift
+    struct FlashcardActionButtonStyle: ButtonStyle {
+        let backgroundColor: Color
 
-// MARK: - Button Styling
-struct FlashcardActionButtonStyle: ButtonStyle {
-    let backgroundColor: Color
-
-    func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .font(.subheadline)
-            .foregroundColor(.white)
-            .padding()
-            .background(
-                RoundedRectangle(cornerRadius: 12)
-                    .fill(backgroundColor)
-                    .shadow(radius: configuration.isPressed ? 4 : 8)
-            )
-            .scaleEffect(configuration.isPressed ? 0.95 : 1.0)
+        func makeBody(configuration: Configuration) -> some View {
+            configuration.label
+                .font(.subheadline)
+                .foregroundColor(.white)
+                .padding()
+                .background(
+                    RoundedRectangle(cornerRadius: 12)
+                        .fill(backgroundColor)
+                        .shadow(radius: configuration.isPressed ? 4 : 8)
+                )
+                .scaleEffect(configuration.isPressed ? 0.95 : 1.0)
+        }
     }
+
 }

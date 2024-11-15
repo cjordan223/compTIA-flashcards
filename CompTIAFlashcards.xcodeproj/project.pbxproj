@@ -35,6 +35,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		D6A14A2F2CE7458000270E7A /* Illustration */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Illustration;
+			sourceTree = "<group>";
+		};
 		D6E59CDE2CE67953009F2B5C /* CompTIAFlashcards */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = CompTIAFlashcards;
@@ -85,6 +90,7 @@
 				D6E59CF92CE67955009F2B5C /* CompTIAFlashcardsUITests */,
 				D6E59CDD2CE67953009F2B5C /* Products */,
 				D6A14A0B2CE71FB800270E7A /* flashcards.json */,
+				D6A14A2F2CE7458000270E7A /* Illustration */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,6 +120,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				D6A14A2F2CE7458000270E7A /* Illustration */,
 				D6E59CDE2CE67953009F2B5C /* CompTIAFlashcards */,
 			);
 			name = CompTIAFlashcards;
@@ -403,6 +410,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CompTIAFlashcards/Preview Content\"";
+				DEVELOPMENT_TEAM = H3P85M84FA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -431,6 +439,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CompTIAFlashcards/Preview Content\"";
+				DEVELOPMENT_TEAM = H3P85M84FA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

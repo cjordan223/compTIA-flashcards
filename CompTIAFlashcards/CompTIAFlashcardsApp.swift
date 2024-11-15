@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct CompTIAFlashcardsApp: App {
+    
     var body: some Scene {
         WindowGroup {
             FlashcardListView()
