@@ -50,10 +50,6 @@ cd CompTIAFlashcards
 
 Here are some screenshots of the app in action:
 
-# App Screenshots
-
-Here are some screenshots of the app in action:
-
 <div style="display: flex; justify-content: space-between;">
     <img src="/Illustration/IMG_1494.PNG" alt="Main Interface" width="30%">
     <img src="/Illustration/IMG_1495.PNG" alt="Flashcard View" width="30%">
