@@ -1,0 +1,702 @@
+[
+  {
+    "id": "1",
+    "question": "What type of RAM is commonly used in laptops?",
+    "answer": "SO-DIMM",
+    "category": "Hardware",
+    "isKnown": false
+  },
+  {
+    "id": "2",
+    "question": "What is the difference between HDD and SSD in laptops?",
+    "answer": "HDDs offer more storage but have moving parts; SSDs are faster, have no moving parts, consume less power, and are more durable.",
+    "category": "Storage Devices",
+    "isKnown": false
+  },
+  {
+    "id": "3",
+    "question": "What is a Wireless NIC used for in mobile devices?",
+    "answer": "It provides wireless network connectivity, such as Wi-Fi, Bluetooth, and cellular connections.",
+    "category": "Networking",
+    "isKnown": false
+  },
+  {
+    "id": "4",
+    "question": "What does NFC stand for and where is it commonly used?",
+    "answer": "Near Field Communication; used for mobile payments and authentication.",
+    "category": "Security",
+    "isKnown": false
+  },
+  {
+    "id": "5",
+    "question": "Compare LCD and OLED display types.",
+    "answer": "LCD uses backlight and performs well in bright conditions; OLED generates light from each pixel, has better contrast, thinner profile, and is prone to burn-in.",
+    "category": "Display Technologies",
+    "isKnown": false
+  },
+  {
+    "id": "6",
+    "question": "What are the characteristics of TN, VA, and IPS panels?",
+    "answer": "TN: Fast response, not good at angles; VA: Balanced, good for varying light; IPS: Good at angles, ideal for content creators.",
+    "category": "Display Technologies",
+    "isKnown": false
+  },
+  {
+    "id": "7",
+    "question": "What is the function of a port replicator?",
+    "answer": "It plugs into a laptop or mobile device to provide additional ports/peripherals without adding new features.",
+    "category": "Hardware Accessories",
+    "isKnown": false
+  },
+  {
+    "id": "8",
+    "question": "What advantages does a docking station offer over a port replicator?",
+    "answer": "It provides additional ports and features like enhanced video and audio capabilities and includes its own power supply.",
+    "category": "Hardware Accessories",
+    "isKnown": false
+  },
+  {
+    "id": "9",
+    "question": "What is the difference between GSM and CDMA cellular networks?",
+    "answer": "GSM uses SIM cards for user identity and is flexible; CDMA is known for robust stability and vast coverage but less flexible when switching devices.",
+    "category": "Networking",
+    "isKnown": false
+  },
+  {
+    "id": "10",
+    "question": "What is PRL and why is it important?",
+    "answer": "Preferred Roaming List; it helps devices determine which network to connect to, avoiding roaming by containing frequency bands and service provider IDs.",
+    "category": "Networking",
+    "isKnown": false
+  },
+  {
+    "id": "11",
+    "question": "What is MDM and what does it do?",
+    "answer": "Mobile Device Management; it controls, secures, and enforces policies on mobile devices.",
+    "category": "Security",
+    "isKnown": false
+  },
+  {
+    "id": "12",
+    "question": "What is the purpose of MAM?",
+    "answer": "Mobile Application Management; it controls and secures access to corporate applications and data, allowing wiping company data from individual apps.",
+    "category": "Security",
+    "isKnown": false
+  },
+  {
+    "id": "13",
+    "question": "What are the differences between TCP and UDP protocols?",
+    "answer": "TCP is connection-oriented with error checking; UDP is faster, connectionless, and doesn't guarantee delivery.",
+    "category": "Networking Protocols",
+    "isKnown": false
+  },
+  {
+    "id": "14",
+    "question": "Which protocol and port number does SSH use?",
+    "answer": "SSH uses TCP port 22.",
+    "category": "Networking Ports",
+    "isKnown": false
+  },
+  {
+    "id": "15",
+    "question": "What is the purpose of DHCP in a network?",
+    "answer": "Dynamic Host Configuration Protocol automates the configuration of devices on IP networks, assigning IP addresses and other network settings.",
+    "category": "Networking Protocols",
+    "isKnown": false
+  },
+  {
+    "id": "16",
+    "question": "Explain the DORA process in DHCP.",
+    "answer": "Discover, Offer, Request, Acknowledge; the sequence of steps for DHCP IP address allocation.",
+    "category": "Networking Protocols",
+    "isKnown": false
+  },
+  {
+    "id": "17",
+    "question": "What is APIPA and when is it used?",
+    "answer": "Automatic Private IP Addressing; used when a device can't reach a DHCP server, assigning itself an IP in the 169.254.x.x range.",
+    "category": "Networking",
+    "isKnown": false
+  },
+  {
+    "id": "18",
+    "question": "What is the difference between a hub and a switch?",
+    "answer": "A hub broadcasts data to all devices; a switch sends data only to the destination device.",
+    "category": "Networking Hardware",
+    "isKnown": false
+  },
+  {
+    "id": "19",
+    "question": "What is PoE and what devices commonly use it?",
+    "answer": "Power over Ethernet allows network cables to transmit data and power; used by IP phones, wireless access points, and IP cameras.",
+    "category": "Networking Hardware",
+    "isKnown": false
+  },
+  {
+    "id": "20",
+    "question": "What is the difference between single-mode and multi-mode fiber optic cables?",
+    "answer": "Single-mode fiber is used for long distances with a single light path; multi-mode fiber is used for shorter distances with multiple light paths.",
+    "category": "Networking Cables",
+    "isKnown": false
+  },
+  {
+    "id": "21",
+    "question": "What does the term 'plenum-rated' mean in cabling?",
+    "answer": "Cables that are rated for fire resistance and produce less smoke, suitable for use in plenum spaces like HVAC ducts.",
+    "category": "Networking Cables",
+    "isKnown": false
+  },
+  {
+    "id": "22",
+    "question": "What is the purpose of a loopback plug?",
+    "answer": "To test network ports and the functionality of a NIC by sending signals back to itself.",
+    "category": "Networking Tools",
+    "isKnown": false
+  },
+  {
+    "id": "23",
+    "question": "Explain the function of a VLAN.",
+    "answer": "A Virtual Local Area Network segments a physical network into multiple logical networks for security and efficiency.",
+    "category": "Networking",
+    "isKnown": false
+  },
+  {
+    "id": "24",
+    "question": "What is the main advantage of using UEFI over BIOS?",
+    "answer": "UEFI has a modern interface with GUI support, secure boot features, and can handle larger boot drives.",
+    "category": "Hardware",
+    "isKnown": false
+  },
+  {
+    "id": "25",
+    "question": "What is a TPM and what is its primary function?",
+    "answer": "Trusted Platform Module; it provides hardware-based security functions, storing cryptographic keys, passwords, and certificates.",
+    "category": "Security",
+    "isKnown": false
+  },
+  {
+    "id": "26",
+    "question": "What does RAID stand for and what is its purpose?",
+    "answer": "Redundant Array of Independent Disks; it combines multiple hard drives for data redundancy and performance improvement.",
+    "category": "Storage Technologies",
+    "isKnown": false
+  },
+  {
+    "id": "27",
+    "question": "Describe the main characteristic of RAID 0.",
+    "answer": "Data is striped across disks without redundancy; improves performance but offers no fault tolerance.",
+    "category": "Storage Technologies",
+    "isKnown": false
+  },
+  {
+    "id": "28",
+    "question": "What is the function of ECC RAM?",
+    "answer": "Error-Correcting Code RAM can detect and correct data corruption on the fly, important for critical systems.",
+    "category": "Memory",
+    "isKnown": false
+  },
+  {
+    "id": "29",
+    "question": "What are the common types of RAM used in modern computers?",
+    "answer": "DDR3, DDR4, and DDR5 for desktops; SO-DIMM for laptops.",
+    "category": "Memory",
+    "isKnown": false
+  },
+  {
+    "id": "30",
+    "question": "What is the difference between a Type 1 and Type 2 hypervisor?",
+    "answer": "Type 1 runs directly on hardware (bare metal); Type 2 runs on top of a host operating system.",
+    "category": "Virtualization",
+    "isKnown": false
+  },
+  {
+    "id": "31",
+    "question": "What is cloud computing's 'rapid elasticity' characteristic?",
+    "answer": "The ability to quickly scale resources up or down in response to demand.",
+    "category": "Cloud Computing",
+    "isKnown": false
+  },
+  {
+    "id": "32",
+    "question": "What is the main purpose of a UPS?",
+    "answer": "Uninterruptible Power Supply; provides immediate backup power to devices during a power outage.",
+    "category": "Hardware",
+    "isKnown": false
+  },
+  {
+    "id": "33",
+    "question": "What does BIOS stand for and what is its role?",
+    "answer": "Basic Input/Output System; it initializes hardware during the boot-up process.",
+    "category": "Hardware",
+    "isKnown": false
+  },
+  {
+    "id": "34",
+    "question": "Name three cloud service models.",
+    "answer": "Infrastructure as a Service (IaaS), Platform as a Service (PaaS), Software as a Service (SaaS).",
+    "category": "Cloud Computing",
+    "isKnown": false
+  },
+  {
+    "id": "35",
+    "question": "What is DHCP reservation?",
+    "answer": "A feature that reserves a specific IP address for a particular device based on its MAC address.",
+    "category": "Networking",
+    "isKnown": false
+  },
+  {
+    "id": "36",
+    "question": "What are the key steps in the troubleshooting methodology?",
+    "answer": "1. Identify the problem, 2. Establish a theory of probable cause, 3. Test the theory, 4. Establish a plan, 5. Verify functionality, 6. Document findings.",
+    "category": "Troubleshooting",
+    "isKnown": false
+  },
+  {
+    "id": "37",
+    "question": "What is EMI and how can it affect networks?",
+    "answer": "Electromagnetic Interference; it can disrupt or degrade signal quality in network cables.",
+    "category": "Networking",
+    "isKnown": false
+  },
+  {
+    "id": "38",
+    "question": "What is a 'pinwheel' in macOS?",
+    "answer": "It's a proprietary crash screen indicating that an application or the system has become unresponsive.",
+    "category": "Operating Systems",
+    "isKnown": false
+  },
+  {
+    "id": "39",
+    "question": "What does the 'SMART' technology in hard drives stand for?",
+    "answer": "Self-Monitoring, Analysis, and Reporting Technology; it predicts drive failures.",
+    "category": "Storage Technologies",
+    "isKnown": false
+  },
+  {
+    "id": "40",
+    "question": "What is the function of a firewall's ACL?",
+    "answer": "Access Control List; it allows or denies traffic based on predetermined security rules.",
+    "category": "Security",
+    "isKnown": false
+  },
+  {
+    "id": "41",
+    "question": "What is the primary function of the BGP protocol, and in which layer of the OSI model does it operate?",
+    "answer": "BGP (Border Gateway Protocol) is used for routing between autonomous systems on the Internet, making routing decisions based on paths, network policies, and rule sets. It operates at the Application layer (Layer 7) of the OSI model, as it uses TCP for transport.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "42",
+    "question": "Describe how OSPF uses areas to optimize routing, and explain the function of a backbone area.",
+    "answer": "OSPF (Open Shortest Path First) uses a hierarchical structure with areas to optimize routing efficiency. By dividing a network into areas, OSPF limits the scope of route information that must be propagated, reducing overhead. The backbone area, known as Area 0, is the central area to which all other areas must connect, and it is responsible for inter-area routing and distributing routing information between areas.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "43",
+    "question": "What is the purpose of the LSA (Link-State Advertisement) types in OSPF, and how does OSPF use them for route calculation?",
+    "answer": "LSAs are used in OSPF to share routing and topology information. Different LSA types convey different kinds of information, such as router LSAs, network LSAs, summary LSAs, and more. OSPF routers use LSAs to build a complete and accurate picture of the network topology, which is then used in the SPF (Shortest Path First) algorithm to calculate the best paths.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "44",
+    "question": "Explain the difference between IPSec's transport mode and tunnel mode, and provide an example use case for each.",
+    "answer": "In IPSec transport mode, only the payload of the IP packet is encrypted and/or authenticated, leaving the original IP headers intact. This mode is typically used for end-to-end communication between hosts. In tunnel mode, the entire IP packet (header and payload) is encrypted and/or authenticated, and then encapsulated into a new IP packet with a new IP header. Tunnel mode is commonly used in site-to-site VPNs, where the VPN gateways encapsulate the original packets.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "45",
+    "question": "What is the role of the Diffie-Hellman key exchange in secure communications, and what is a potential vulnerability associated with it?",
+    "answer": "Diffie-Hellman is a method for securely exchanging cryptographic keys over a public channel. It allows two parties to generate a shared secret key used for encryption, without transmitting the key itself. A potential vulnerability is susceptibility to man-in-the-middle attacks if the identities of the parties are not authenticated, as an attacker could intercept and modify the key exchange to establish separate keys with each party.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "46",
+    "question": "Describe how the STP (Spanning Tree Protocol) prevents loops in a Layer 2 network, and explain what could happen if STP is not properly configured.",
+    "answer": "STP prevents loops by creating a spanning tree that selectively blocks redundant paths in a switched network, ensuring there is only one active path between any two network devices. If STP is not properly configured, redundant paths can cause broadcast storms, multiple frame copies, and MAC address table instability, leading to network congestion and possible collapse.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "47",
+    "question": "Explain the concept of VLAN Trunking Protocol (VTP) and its modes, and discuss the potential risks associated with VTP.",
+    "answer": "VTP is a Cisco proprietary protocol that propagates VLAN information across a network of switches, allowing for centralized VLAN management. VTP has three modes: Server (creates and manages VLANs), Client (receives VLAN information), and Transparent (does not participate in VTP, forwards VTP advertisements). Risks include accidental overwriting of VLAN configurations if a switch with higher revision number but incorrect VLAN data is introduced, leading to network disruptions.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "48",
+    "question": "What is the purpose of the 802.1X protocol in network security, and how does it integrate with RADIUS servers?",
+    "answer": "802.1X is a network access control protocol that provides authentication for devices attempting to connect to a LAN or WLAN. It uses port-based access control and works by requiring devices to authenticate themselves before gaining network access. It integrates with RADIUS servers by acting as the authentication mechanism, where the 802.1X authenticator (switch or access point) forwards authentication requests to the RADIUS server for validation.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "49",
+    "question": "Describe how MPLS (Multiprotocol Label Switching) improves network efficiency, and explain the difference between label switching and traditional IP routing.",
+    "answer": "MPLS improves network efficiency by using labels to make forwarding decisions, enabling faster packet forwarding and supporting QoS by allowing different types of traffic to be managed differently. Unlike traditional IP routing, which requires each router to perform a routing table lookup, label switching uses fixed-length labels to quickly direct packets through the network along predefined paths, reducing processing overhead.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+      "id": "50",
+      "question": "What should you check if a printer's color output is incorrect?",
+      "answer": "Check toner/cartridge levels and verify color settings in the printer configuration.",
+      "category": "quick",
+      "isKnown": false
+    },
+  {
+    "id": "51",
+    "question": "What are two common causes of missing drives in an operating system?",
+    "answer": "Disconnected cables and drive hardware failure.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "52",
+    "question": "When troubleshooting a dim display, how can you test if the backlight is failing?",
+    "answer": "Shine a light on the screen - if you can see an image under the light, it indicates a malfunctioning backlight.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "53",
+    "question": "What are three ways to prevent display burn-in?",
+    "answer": "Using screen savers, power saving settings, and dynamic wallpapers.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "54",
+    "question": "What is the first step you should take when dealing with liquid damage to a mobile device?",
+    "answer": "Power off the device immediately before attempting to remove moisture.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "55",
+    "question": "What is an APIPA address and what does it indicate?",
+    "answer": "A self-assigned IP address that generates when a device fails to reach the DHCP server, indicating a likely router problem rather than a device issue.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "56",
+    "question": "What are common signs that a mobile device may have malware?",
+    "answer": "Sluggish performance, unauthorized data usage, and unexpected access to camera/microphone/location.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "57",
+    "question": "What's the difference between latency and jitter in networking?",
+    "answer": "Latency is the average delay in data transmission, while jitter is the variation in that delay over time.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "58",
+    "question": "When a printer produces lines down printed pages, what are two possible causes for laser printers?",
+    "answer": "A dirty photosensitive drum or a scratched/damaged photosensitive drum.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "59",
+    "question": "What is port flapping and what does it typically indicate?",
+    "answer": "Port flapping is when a network interface rapidly alternates between up and down states, usually indicating a problem with the connection or NIC.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "60",
+    "question": "What should you check first if a screen is unresponsive but the display works fine on a mobile device?",
+    "answer": "It's likely a digitizer issue - check if the digitizer needs replacement or recalibration.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "61",
+    "question": "What are the steps to troubleshoot a backed-up print queue in order?",
+    "answer": "1. Check paper/ink/toner, 2. Verify printer is online, 3. Restart current print job, 4. Delete and reprint, 5. Restart Print Spooler service.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "62",
+    "question": "What are three common sources of electromagnetic interference for wireless networks?",
+    "answer": "Fluorescent lights, microwave ovens, and power cables/generators.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "63",
+    "question": "What are signs of a declining battery in a mobile device?",
+    "answer": "Device becomes hot to touch and shows poor battery life despite normal usage.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "64",
+    "question": "What causes toner not to fuse properly to paper in a laser printer?",
+    "answer": "A faulty fuser unit, incorrect paper type/weight, or worn/damaged fuser roller.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "65",
+    "question": "What are three factors that can cause intermittent wireless connectivity?",
+    "answer": "Electromagnetic interference (EMI), physical obstructions, and distance from access point.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "66",
+    "question": "What should you do first when encountering a paper jam in a printer?",
+    "answer": "Remove the printer from service and disconnect power for safety.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "67",
+    "question": "What are three common causes of mobile device overheating?",
+    "answer": "Background applications straining processor, prolonged use as WiFi hotspot, and extensive GPS usage.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "68",
+    "question": "What should you check first if a mobile device isn't charging properly?",
+    "answer": "Check for debris in the charging port and ensure power output matches device requirements.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "69",
+    "question": "What are two causes of garbled printer output?",
+    "answer": "Bad firmware or incorrect/corrupted printer drivers.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "70",
+    "question": "Why is VoIP particularly sensitive to network issues?",
+    "answer": "Because it's real-time traffic that's highly sensitive to both latency and jitter.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "71",
+    "question": "What are three things to check when troubleshooting poor WiFi/Bluetooth connectivity?",
+    "answer": "Check adapter status, device range, and potential interference sources.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "72",
+    "question": "What causes speckling on printed pages?",
+    "answer": "A damaged or leaking toner cartridge or cleaning mechanism needs maintenance.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "73",
+    "question": "What should you do if you encounter a swollen battery in a mobile device?",
+    "answer": "Seek professional help immediately - do not attempt to handle it yourself.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "74",
+    "question": "What are two causes of cursor drift on touchscreens?",
+    "answer": "Misaligned digitizer or need for touchscreen recalibration.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "75",
+    "question": "What causes double/echo images in laser printer output?",
+    "answer": "Issues with the imaging drum - either dirt or a defective cleaning mechanism.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "76",
+    "question": "What are three common causes of slow network speeds?",
+    "answer": "Interface configuration issues, damaged cables, and network congestion.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "77",
+    "question": "What should you check if a projector keeps shutting down intermittently?",
+    "answer": "Check for overheating and dirty air filters.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "78",
+    "question": "What are two causes of a fuzzy projector image?",
+    "answer": "Out of focus lens or improper display settings.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "79",
+    "question": "What are three signs of potential liquid damage in a mobile device?",
+    "answer": "Visible water marks, display distortion, and erratic behavior.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "80",
+    "question": "What causes multi-page misfeeds in printers?",
+    "answer": "A worn or damaged separation pad.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "81",
+    "question": "What should you use to protect network cables from EMI?",
+    "answer": "Shielded Twisted Pair (STP) cables.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "82",
+    "question": "What are two causes of faded print output?",
+    "answer": "Low ink/toner levels or incorrect print density settings.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "83",
+    "question": "What should you check first when a bootable device is not found?",
+    "answer": "Check storage connections and possible drive failure.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "84",
+    "question": "What are three preventive measures for dead pixels?",
+    "answer": "Handle devices with care, keep away from liquids, and avoid physical damage.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "85",
+    "question": "What are two common causes of incorrect color display?",
+    "answer": "Damaged VGA/HDMI connections or misconfigured color settings.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "86",
+    "question": "What should you check first when there's no audio output?",
+    "answer": "Check cable connections and verify output device settings are configured correctly.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "87",
+    "question": "What are three signs of a recurring paper jam issue?",
+    "answer": "Worn pickup roller, blocked paper sensor, or improper paper alignment.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "88",
+    "question": "What should you do first when troubleshooting limited network connectivity?",
+    "answer": "Check if the device has an APIPA address and attempt to ping remote devices.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "89",
+    "question": "What are two ways to verify a failing display backlight?",
+    "answer": "Check for extremely dim display and use a flashlight to see if image is visible when illuminated.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "90",
+    "question": "What are three common causes of flashing screens?",
+    "answer": "Loose cable connections, electrical malfunction, or display hardware issues.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "91",
+    "question": "What should you check if a printer's color output is incorrect?",
+    "answer": "Check toner/cartridge levels and verify color settings in the printer configuration.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "92",
+    "question": "What are two signs of a failing hard drive?",
+    "answer": "Missing drive detection in OS and unusual noises during operation.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "93",
+    "question": "What are three common sources of network latency?",
+    "answer": "Physical distance, network congestion, and electromagnetic interference.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "94",
+    "question": "What should you check first when a mobile device's screen becomes unresponsive?",
+    "answer": "Check if the digitizer is functioning properly before assuming screen damage.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "95",
+    "question": "What are two common causes of distorted audio?",
+    "answer": "Faulty audio cables or incorrectly configured audio settings.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "96",
+    "question": "What should you check if a projector shows no image?",
+    "answer": "Check if the bulb is burned out or needs replacement.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "97",
+    "question": "What are three ways to troubleshoot poor mobile device charging?",
+    "answer": "Check for port debris, verify cable compatibility, and confirm power adapter output.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "98",
+    "question": "What causes paper feed issues in printers?",
+    "answer": "Improper tray alignment, incorrect paper type/condition, or worn rollers.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "99",
+    "question": "What are two signs of display burn-in?",
+    "answer": "Ghost images and persistent shadows from static images.",
+    "category": "quick",
+    "isKnown": false
+  },
+  {
+    "id": "100",
+    "question": "What should you check if wireless connectivity is intermittent?",
+    "answer": "Check for physical obstructions, distance from access point, and potential interference sources.",
+    "category": "quick",
+    "isKnown": false
+  }
+]

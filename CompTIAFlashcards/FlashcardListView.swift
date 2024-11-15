@@ -20,6 +20,18 @@ struct FlashcardListView: View {
     var body: some View {
         NavigationView {
             VStack {
+                // Reset Button
+                Button("Reset All to Unknown") {
+                    resetAllFlashcards()
+                }
+                .padding()
+                .foregroundColor(.white)
+                .background(Color.orange)
+                .cornerRadius(10)
+                .shadow(radius: 5)
+                .padding(.bottom) // Adds space between reset button and flashcard
+
+                // Progress View
                 ProgressView(value: progressValue)
                     .padding()
                     .overlay(
@@ -28,6 +40,7 @@ struct FlashcardListView: View {
                             .font(.caption)
                     )
 
+                // Category Menu
                 Menu {
                     Button("All") { selectedCategory = nil }
                     ForEach(categories, id: \.self) { category in
@@ -38,10 +51,16 @@ struct FlashcardListView: View {
                         .padding()
                 }
 
+                // Flashcard List
                 List(filteredFlashcards) { flashcard in
-                    NavigationLink(destination: FlashcardView(flashcard: flashcard, onStatusChange: { isKnown in
-                        updateFlashcardStatus(for: flashcard.id, isKnown: isKnown)
-                    })) {
+                    NavigationLink(
+                        destination: FlashcardView(
+                            flashcards: filteredFlashcards,
+                            onStatusChange: { index, isKnown in
+                                updateFlashcardStatus(for: filteredFlashcards[index].id, isKnown: isKnown)
+                            }
+                        )
+                    ) {
                         HStack {
                             VStack(alignment: .leading) {
                                 Text(flashcard.question).font(.headline)
@@ -58,7 +77,6 @@ struct FlashcardListView: View {
                 }
                 .searchable(text: $searchText)
                 .navigationTitle("Flashcards")
-                .navigationBarItems(trailing: NavigationLink("Add", destination: AddFlashcardView(flashcards: $flashcards)))
             }
             .onAppear {
                 if flashcards.isEmpty { loadFlashcards() }
@@ -67,6 +85,7 @@ struct FlashcardListView: View {
         }
     }
 
+    // MARK: - Helper Functions
     private func updateFlashcardStatus(for id: String, isKnown: Bool) {
         if let index = flashcards.firstIndex(where: { $0.id == id }) {
             flashcards[index].isKnown = isKnown
@@ -89,19 +108,25 @@ struct FlashcardListView: View {
         let documentsURL = fileManager.urls(for: .documentDirectory, in: .userDomainMask).first!
         let fileURL = documentsURL.appendingPathComponent("flashcards.json")
 
+        print("JSON file path: \(fileURL)") // Debug log
+
         if let data = try? Data(contentsOf: fileURL) {
             let decoder = JSONDecoder()
             do {
+                let rawData = try JSONSerialization.jsonObject(with: data, options: []) as? [[String: Any]]
+                print("Total raw entries: \(rawData?.count ?? 0)") // Log total entries in the JSON
+
                 flashcards = try decoder.decode([Flashcard].self, from: data)
+                print("Successfully loaded \(flashcards.count) flashcards")
             } catch {
                 print("Error decoding JSON: \(error)")
-                flashcards = []
             }
         } else {
-            flashcards = []
+            print("JSON file not found or empty")
         }
-        updateProgress()
     }
+
+
 
     private func saveFlashcards() {
         let encoder = JSONEncoder()
@@ -115,5 +140,13 @@ struct FlashcardListView: View {
         } catch {
             print("Error saving flashcards: \(error)")
         }
+    }
+
+    private func resetAllFlashcards() {
+        for index in flashcards.indices {
+            flashcards[index].isKnown = false
+        }
+        saveFlashcards()
+        updateProgress()
     }
 }

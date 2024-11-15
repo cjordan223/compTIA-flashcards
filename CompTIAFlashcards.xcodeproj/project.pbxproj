@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D6A14A0D2CE71FC300270E7A /* flashcards.json in Resources */ = {isa = PBXBuildFile; fileRef = D6A14A0B2CE71FB800270E7A /* flashcards.json */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		D6E59CED2CE67955009F2B5C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D6A14A0B2CE71FB800270E7A /* flashcards.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = flashcards.json; sourceTree = "<group>"; };
 		D6E59CDC2CE67953009F2B5C /* CompTIAFlashcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompTIAFlashcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E59CEC2CE67955009F2B5C /* CompTIAFlashcardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompTIAFlashcardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E59CF62CE67955009F2B5C /* CompTIAFlashcardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompTIAFlashcardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +84,7 @@
 				D6E59CEF2CE67955009F2B5C /* CompTIAFlashcardsTests */,
 				D6E59CF92CE67955009F2B5C /* CompTIAFlashcardsUITests */,
 				D6E59CDD2CE67953009F2B5C /* Products */,
+				D6A14A0B2CE71FB800270E7A /* flashcards.json */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6A14A0D2CE71FC300270E7A /* flashcards.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

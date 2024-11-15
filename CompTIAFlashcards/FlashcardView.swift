@@ -2,53 +2,115 @@ import SwiftUI
 
 struct FlashcardView: View {
     @State private var isFlipped = false
-    var flashcard: Flashcard
-    var onStatusChange: (Bool) -> Void
+    @State private var currentIndex = 0 // Track the current flashcard index
+
+    var flashcards: [Flashcard]
+    var onStatusChange: (Int, Bool) -> Void // Pass index to allow updating
 
     var body: some View {
-        VStack {
+        VStack(spacing: 16) {
             ZStack {
-                if isFlipped {
-                    Text(flashcard.answer)
-                        .font(.title)
+                RoundedRectangle(cornerRadius: 16)
+                    .fill(isFlipped ? Color.blue : Color.green)
+                    .shadow(radius: 8)
+
+                VStack {
+                    Text(isFlipped ? flashcards[currentIndex].answer : flashcards[currentIndex].question)
+                        .font(.headline)
                         .foregroundColor(.white)
                         .padding()
-                        .background(Color.blue)
-                        .cornerRadius(10)
-                } else {
-                    Text(flashcard.question)
-                        .font(.title)
-                        .foregroundColor(.white)
-                        .padding()
-                        .background(Color.green)
-                        .cornerRadius(10)
+                        .multilineTextAlignment(.center) // Ensure text is properly wrapped
                 }
+                .padding()
             }
-            .frame(width: 300, height: 200)
+            .frame(width: 350, height: 250)
             .onTapGesture {
                 withAnimation {
                     isFlipped.toggle()
                 }
             }
 
-            HStack {
-                Button("Mark Known") {
-                    onStatusChange(true)
+            // Action Buttons
+            HStack(spacing: 20) {
+                Button(action: { onStatusChange(currentIndex, true) }) {
+                    HStack {
+                        Image(systemName: "checkmark.circle")
+                        Text("Mark Known")
+                    }
+                    .frame(maxWidth: .infinity) // Expand buttons to fill space
                 }
-                .padding()
-                .background(Color.green)
-                .foregroundColor(.white)
-                .cornerRadius(10)
+                .buttonStyle(FlashcardActionButtonStyle(backgroundColor: .green))
 
-                Button("Need Review") {
-                    onStatusChange(false)
+                Button(action: { onStatusChange(currentIndex, false) }) {
+                    HStack {
+                        Image(systemName: "exclamationmark.circle")
+                        Text("Need Review")
+                    }
+                    .frame(maxWidth: .infinity)
                 }
-                .padding()
-                .background(Color.red)
-                .foregroundColor(.white)
-                .cornerRadius(10)
+                .buttonStyle(FlashcardActionButtonStyle(backgroundColor: .red))
             }
-            .padding()
+            .padding(.horizontal, 16)
+
+            // Pagination Buttons
+            HStack {
+                Button(action: previousCard) {
+                    Image(systemName: "arrow.left.circle.fill")
+                        .font(.title)
+                        .foregroundColor(.blue)
+                }
+                .disabled(currentIndex == 0) // Disable if at the first card
+
+                Spacer()
+
+                Text("\(currentIndex + 1) of \(flashcards.count)")
+                    .font(.caption)
+                    .foregroundColor(.gray)
+
+                Spacer()
+
+                Button(action: nextCard) {
+                    Image(systemName: "arrow.right.circle.fill")
+                        .font(.title)
+                        .foregroundColor(.blue)
+                }
+                .disabled(currentIndex == flashcards.count - 1) // Disable if at the last card
+            }
+            .padding(.horizontal, 16)
         }
+        .padding() // Add outer padding
+    }
+
+    // MARK: - Helper Functions
+    private func nextCard() {
+        withAnimation {
+            currentIndex = min(currentIndex + 1, flashcards.count - 1)
+            isFlipped = false // Reset flip state for next card
+        }
+    }
+
+    private func previousCard() {
+        withAnimation {
+            currentIndex = max(currentIndex - 1, 0)
+            isFlipped = false // Reset flip state for previous card
+        }
+    }
+}
+
+// MARK: - Button Styling
+struct FlashcardActionButtonStyle: ButtonStyle {
+    let backgroundColor: Color
+
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .font(.subheadline)
+            .foregroundColor(.white)
+            .padding()
+            .background(
+                RoundedRectangle(cornerRadius: 12)
+                    .fill(backgroundColor)
+                    .shadow(radius: configuration.isPressed ? 4 : 8)
+            )
+            .scaleEffect(configuration.isPressed ? 0.95 : 1.0)
     }
 }
